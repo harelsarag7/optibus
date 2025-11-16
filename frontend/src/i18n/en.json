@@ -1,0 +1,29 @@
+{
+  "app": {
+    "title": "Optibus RAG Demo",
+    "subtitle": "Query the Optibus document database using Retrieval-Augmented Generation"
+  },
+  "documentList": {
+    "title": "Available Documents",
+    "loading": "Loading documents...",
+    "error": "Failed to load documents",
+    "columns": {
+      "id": "ID",
+      "module": "Module",
+      "preview": "Preview"
+    }
+  },
+  "queryBox": {
+    "title": "Query RAG System",
+    "queryLabel": "Enter your question",
+    "queryPlaceholder": "e.g., How are night routes handled?",
+    "topKLabel": "Top K",
+    "submitButton": "Ask",
+    "answerTitle": "Answer",
+    "retrievedDocumentsTitle": "Retrieved Documents",
+    "error": "Failed to process query",
+    "scoreLabel": "Score:"
+  }
+}
+
+

@@ -1,0 +1,43 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #F5F5F5 0%, #E8E8E8 100%);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 600px) {
+  .app-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.app-header {
+  margin-bottom: 24px;
+}
+
+@media (min-width: 960px) {
+  .app-header {
+    margin-bottom: 32px;
+  }
+}
+
+.app-title {
+  font-weight: 700;
+  background: linear-gradient(135deg, #8D69FE 0%, #211348 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+
+.app-subtitle {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+@media (min-width: 600px) {
+  .app-subtitle {
+    font-size: 1rem;
+  }
+}
