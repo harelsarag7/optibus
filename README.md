@@ -250,6 +250,13 @@ curl http://localhost:8000/health
 - **Frontend**: React, TypeScript, Vite, Material-UI
 - **Deployment**: Docker, Docker Compose, Nginx
 
+## Quick wins / things we can improve fast:
+- Add Zod for schema validation
+- Caching: use Redis to cache query results
+- Indexing: use a vector database with proper indexing
+- Async processing: move embedding creation to background jobs
+
+
 ## 👤 Author
 
 Harel Sarag - Built for Optibus GenAI Team assessment
