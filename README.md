@@ -27,7 +27,7 @@ This project demonstrates an end-to-end RAG system that allows users to:
 - Display of both retrieved documents and LLM answers
 - Error handling and user feedback
 
-## 🚀 Quick Start
+## 🚀 Quick Start - To Optibus teammates - please use option 2.
 
 ### Prerequisites
 
